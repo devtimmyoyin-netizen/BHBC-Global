@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   min-height: 100svh;
   place-items: center;
-  padding: 5vh 5vw;
+  padding: 5vh 3vw;
 }
 
 .message {
@@ -30,7 +30,7 @@ body {
   justify-items: center;
   gap: 0.34em;
   margin: 0;
-  font-size: clamp(37px, 13.7vw, 96px);
+  font-size: clamp(42px, 15vw, 108px);
   font-weight: 400;
   letter-spacing: -0.055em;
   line-height: 1.12;
@@ -78,6 +78,6 @@ body.has-entrance-animation .message-line {
 
 @media (max-width: 360px) {
   .message {
-    font-size: 12.5vw;
+    font-size: 14vw;
   }
 }
